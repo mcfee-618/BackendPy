@@ -7,9 +7,9 @@ gevent.monkey.patch_all()
 import multiprocessing
 
 debug = True
-daemon = False
+daemon = True
 loglevel = 'debug'
-bind = '127.0.0.1:8099'
+bind = '127.0.0.1:9288'
 # pidfile = 'log/gunicorn.pid'
 # logfile = 'log/debug.log'
 
