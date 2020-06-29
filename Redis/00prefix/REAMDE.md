@@ -14,3 +14,9 @@
 * 收藏集和帖子之间的关系 (zset)。
 * 记录热榜帖子 ID 列表，总热榜和分类热榜 (zset)。
 * 缓存用户行为历史，进行恶意行为过滤 (zset,hash)
+
+
+## 相关资料
+
+https://juejin.im/post/5dc3a9fbf265da4d3c072eab
+https://juejin.im/post/5c47f4296fb9a049e82bdcb7
