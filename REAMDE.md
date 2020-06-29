@@ -1,4 +1,4 @@
-# 后台核心技术总结
+## Redis相关总结
 
-此项目用于整理日常学习到的核心技术，包含工具以及架构相关
-## Nginx
+* 掘金手册：https://juejin.im/book/5afc2e5f6fb9a07a9b362527/section/5afc2e5f51882542714ff291
+
