@@ -5,9 +5,9 @@
 在平时的业务开发中，要尽量避免大 key 的产生。
 ```
 
-* 如何定位大key:Redis 官方已经在 redis-cli 指令中提供了这样的扫描功能，我们可以直接拿来即用。
+* 如何定位大key:Redis 官方已经在 redis-cli 指令中提供了这样的扫描功能，我们可以直接拿来即用。通过Redis-cli –bigkeys 可以很方便的找到某个实例最大的几个KEY，但是只能得到某种类型的最大的一个key。
 
 ```
 redis-cli -h 127.0.0.1 -p 7001 –-bigkeys
-redis-cli -h 127.0.0.1 -p 7001 –-bigkeys -i 0.1 增加休眠参数
+redis-cli -h 127.0.0.1 -p 7001 –-bigkeys -i 0.1 增加休眠参数，防止在查询过程 ops(每秒操作次数)暴增
 ```
